@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\bin\Debug\WinForms2Dz.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\bin\Debug\WinForms2Dz.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\bin\Debug\WinForms2Dz.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\obj\Debug\WinForms2Dz.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\obj\Debug\WinForms2Dz.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\obj\Debug\WinForms2Dz.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\obj\Debug\WinForms2Dz.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\obj\Debug\WinForms2Dz.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\obj\Debug\WinForms2Dz.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WinForms2Dz\obj\Debug\WinForms2Dz.pdb
