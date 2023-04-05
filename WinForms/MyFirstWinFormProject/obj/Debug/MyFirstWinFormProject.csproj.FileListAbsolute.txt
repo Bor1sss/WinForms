@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\bin\Debug\MyFirstWinFormProject.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\bin\Debug\MyFirstWinFormProject.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\bin\Debug\MyFirstWinFormProject.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\obj\Debug\MyFirstWinFormProject.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\obj\Debug\MyFirstWinFormProject.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\obj\Debug\MyFirstWinFormProject.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\obj\Debug\MyFirstWinFormProject.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\obj\Debug\MyFirstWinFormProject.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\obj\Debug\MyFirstWinFormProject.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\MyFirstWinFormProject\obj\Debug\MyFirstWinFormProject.pdb
