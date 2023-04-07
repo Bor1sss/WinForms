@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\obj\Debug\LabWinForms.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\obj\Debug\LabWinForms.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\obj\Debug\LabWinForms.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\obj\Debug\LabWinForms.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\obj\Debug\LabWinForms.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\bin\Debug\LabWinForms.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\bin\Debug\LabWinForms.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\bin\Debug\LabWinForms.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\obj\Debug\LabWinForms.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\LabWinForms\obj\Debug\LabWinForms.pdb
