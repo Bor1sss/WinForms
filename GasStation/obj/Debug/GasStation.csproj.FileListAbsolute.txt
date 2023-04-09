@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\bin\Debug\GasStation.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\bin\Debug\GasStation.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\bin\Debug\GasStation.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.pdb
