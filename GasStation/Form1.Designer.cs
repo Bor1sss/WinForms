@@ -36,20 +36,20 @@ namespace GasStation
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Price = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.maskedTextBox6 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
@@ -134,9 +134,9 @@ namespace GasStation
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.maskedTextBox2);
+            this.groupBox1.Controls.Add(this.maskedTextBox1);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Location = new System.Drawing.Point(9, 161);
             this.groupBox1.Name = "groupBox1";
@@ -145,23 +145,25 @@ namespace GasStation
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "-";
             // 
-            // textBox3
+            // maskedTextBox2
             // 
-            this.textBox3.Location = new System.Drawing.Point(129, 60);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(121, 20);
-            this.textBox3.TabIndex = 2;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.maskedTextBox2.Location = new System.Drawing.Point(129, 57);
+            this.maskedTextBox2.Mask = "00000";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(121, 20);
+            this.maskedTextBox2.TabIndex = 5;
+            this.maskedTextBox2.ValidatingType = typeof(int);
+            this.maskedTextBox2.TextChanged += new System.EventHandler(this.maskedTextBox2_TextChanged);
             // 
-            // textBox2
+            // maskedTextBox1
             // 
-            this.textBox2.Location = new System.Drawing.Point(129, 19);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(121, 20);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.maskedTextBox1.Location = new System.Drawing.Point(129, 20);
+            this.maskedTextBox1.Mask = "00000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(121, 20);
+            this.maskedTextBox1.TabIndex = 5;
+            this.maskedTextBox1.ValidatingType = typeof(int);
+            this.maskedTextBox1.TextChanged += new System.EventHandler(this.maskedTextBox1_TextChanged);
             // 
             // groupBox2
             // 
@@ -200,12 +202,12 @@ namespace GasStation
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.maskedTextBox6);
+            this.groupBox4.Controls.Add(this.maskedTextBox5);
+            this.groupBox4.Controls.Add(this.maskedTextBox4);
+            this.groupBox4.Controls.Add(this.maskedTextBox3);
             this.groupBox4.Controls.Add(this.groupBox5);
             this.groupBox4.Controls.Add(this.label3);
-            this.groupBox4.Controls.Add(this.textBox11);
-            this.groupBox4.Controls.Add(this.textBox10);
-            this.groupBox4.Controls.Add(this.textBox9);
-            this.groupBox4.Controls.Add(this.textBox5);
             this.groupBox4.Controls.Add(this.textBox8);
             this.groupBox4.Controls.Add(this.textBox7);
             this.groupBox4.Controls.Add(this.textBox6);
@@ -230,6 +232,49 @@ namespace GasStation
             this.label4.Size = new System.Drawing.Size(26, 13);
             this.label4.TabIndex = 2;
             this.label4.Text = "Кол";
+            // 
+            // maskedTextBox6
+            // 
+            this.maskedTextBox6.Location = new System.Drawing.Point(199, 159);
+            this.maskedTextBox6.Mask = "00";
+            this.maskedTextBox6.Name = "maskedTextBox6";
+            this.maskedTextBox6.ReadOnly = true;
+            this.maskedTextBox6.Size = new System.Drawing.Size(23, 20);
+            this.maskedTextBox6.TabIndex = 5;
+            this.maskedTextBox6.ValidatingType = typeof(int);
+            this.maskedTextBox6.TextChanged += new System.EventHandler(this.maskedTextBox11_TextChanged);
+            // 
+            // maskedTextBox5
+            // 
+            this.maskedTextBox5.Location = new System.Drawing.Point(199, 127);
+            this.maskedTextBox5.Mask = "00";
+            this.maskedTextBox5.Name = "maskedTextBox5";
+            this.maskedTextBox5.ReadOnly = true;
+            this.maskedTextBox5.Size = new System.Drawing.Size(23, 20);
+            this.maskedTextBox5.TabIndex = 5;
+            this.maskedTextBox5.ValidatingType = typeof(int);
+            this.maskedTextBox5.TextChanged += new System.EventHandler(this.maskedTextBox10_TextChanged);
+            // 
+            // maskedTextBox4
+            // 
+            this.maskedTextBox4.Location = new System.Drawing.Point(199, 94);
+            this.maskedTextBox4.Mask = "00";
+            this.maskedTextBox4.Name = "maskedTextBox4";
+            this.maskedTextBox4.ReadOnly = true;
+            this.maskedTextBox4.Size = new System.Drawing.Size(23, 20);
+            this.maskedTextBox4.TabIndex = 5;
+            this.maskedTextBox4.ValidatingType = typeof(int);
+            this.maskedTextBox4.TextChanged += new System.EventHandler(this.maskedTextBox9_TextChanged);
+            // 
+            // maskedTextBox3
+            // 
+            this.maskedTextBox3.Location = new System.Drawing.Point(199, 58);
+            this.maskedTextBox3.Mask = "00000";
+            this.maskedTextBox3.Name = "maskedTextBox3";
+            this.maskedTextBox3.ReadOnly = true;
+            this.maskedTextBox3.Size = new System.Drawing.Size(23, 20);
+            this.maskedTextBox3.TabIndex = 5;
+            this.maskedTextBox3.TextChanged += new System.EventHandler(this.maskedTextBox5_TextChanged);
             // 
             // groupBox5
             // 
@@ -258,42 +303,6 @@ namespace GasStation
             this.label3.Size = new System.Drawing.Size(33, 13);
             this.label3.TabIndex = 2;
             this.label3.Text = "Цена";
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(190, 158);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.ReadOnly = true;
-            this.textBox11.Size = new System.Drawing.Size(48, 20);
-            this.textBox11.TabIndex = 1;
-            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(190, 126);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.ReadOnly = true;
-            this.textBox10.Size = new System.Drawing.Size(48, 20);
-            this.textBox10.TabIndex = 1;
-            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(190, 93);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.ReadOnly = true;
-            this.textBox9.Size = new System.Drawing.Size(48, 20);
-            this.textBox9.TabIndex = 1;
-            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(190, 58);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(48, 20);
-            this.textBox5.TabIndex = 1;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox8
             // 
@@ -440,15 +449,12 @@ namespace GasStation
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label Price;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
@@ -456,15 +462,18 @@ namespace GasStation
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox6;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
     }
 }
 
