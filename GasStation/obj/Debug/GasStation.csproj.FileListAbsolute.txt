@@ -8,3 +8,6 @@ C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStat
 C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.csproj.CoreCompileInputs.cache
 C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.exe
 C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.Menu.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.Cafe.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\GasStation\obj\Debug\GasStation.Gas.resources
