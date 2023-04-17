@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\obj\Debug\Explorer.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\obj\Debug\Explorer.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\obj\Debug\Explorer.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\obj\Debug\Explorer.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\obj\Debug\Explorer.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\bin\Debug\Explorer.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\bin\Debug\Explorer.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\bin\Debug\Explorer.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\obj\Debug\Explorer.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Explorer\obj\Debug\Explorer.pdb
