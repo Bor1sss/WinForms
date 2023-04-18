@@ -8,10 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Threading;
 namespace FileMenu
 {
+
+   
     public partial class Form1 : Form
     {
+
+        ImageList image_list1 = new ImageList();
+        Icon icon;
+        Thread thread = null;
         string pathToFolder = "C:\\";
 
         List<string> FilesFormat = new List<string> { "",".JPG", ".DOC", ".TXT", "HTML" };
@@ -23,6 +30,8 @@ namespace FileMenu
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+          //  listBox1.Items.Add("New");
             DialogResult result = folderBrowserDialog1.ShowDialog();
             if (result == DialogResult.OK)
             {
@@ -31,19 +40,12 @@ namespace FileMenu
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        public void Find()
         {
-            if (textBox2.Text == ""||comboBox1.SelectedIndex==-1)
-            {
-                MessageBox.Show("Empty field used default");
-            }
-
-
-            listBox1.Items.Clear();
             string[] astrFiles = Directory.GetFiles(pathToFolder);
             if (textBox1.Text == "")
             {
-              
+
                 // listBox1.Items.Add("Всего файлов: " + astrFiles.Length);
                 foreach (string file in astrFiles)
                 {
@@ -60,8 +62,8 @@ namespace FileMenu
             }
             else
             {
-            
-               
+
+
                 foreach (string file in astrFiles)
                 {
                     if (comboBox1.SelectedIndex != 0)
@@ -86,5 +88,20 @@ namespace FileMenu
                 }
             }
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "" || comboBox1.SelectedIndex == -1)
+            {
+                MessageBox.Show("Empty field used default");
+            }
+
+
+            listBox1.Items.Clear();
+            thread = new Thread(new ThreadStart(Find));
+            thread.IsBackground = true;
+            thread.Start();
+        }
+
+    
     }
 }
