@@ -1,0 +1,14 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\bin\Debug\netcoreapp3.1\Thread12.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\bin\Debug\netcoreapp3.1\Thread12.deps.json
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\bin\Debug\netcoreapp3.1\Thread12.runtimeconfig.json
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\bin\Debug\netcoreapp3.1\Thread12.runtimeconfig.dev.json
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\bin\Debug\netcoreapp3.1\Thread12.dll
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\bin\Debug\netcoreapp3.1\Thread12.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\obj\Debug\netcoreapp3.1\Thread12.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\obj\Debug\netcoreapp3.1\Thread12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\obj\Debug\netcoreapp3.1\Thread12.AssemblyInfoInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\obj\Debug\netcoreapp3.1\Thread12.AssemblyInfo.cs
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\obj\Debug\netcoreapp3.1\Thread12.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\obj\Debug\netcoreapp3.1\Thread12.dll
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\obj\Debug\netcoreapp3.1\Thread12.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Thread12\obj\Debug\netcoreapp3.1\Thread12.genruntimeconfig.cache
