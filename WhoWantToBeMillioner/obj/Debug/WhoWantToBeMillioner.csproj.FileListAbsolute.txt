@@ -1,0 +1,13 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\bin\Debug\WhoWantToBeMillioner.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\bin\Debug\WhoWantToBeMillioner.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\bin\Debug\WhoWantToBeMillioner.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.Form2.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.Form3.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\WhoWantToBeMillioner\obj\Debug\WhoWantToBeMillioner.Form4.resources
