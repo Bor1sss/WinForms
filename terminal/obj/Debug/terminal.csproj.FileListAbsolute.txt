@@ -1,0 +1,11 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\bin\Debug\terminal.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\bin\Debug\terminal.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\bin\Debug\terminal.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\obj\Debug\terminal.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\obj\Debug\terminal.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\obj\Debug\terminal.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\obj\Debug\terminal.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\obj\Debug\terminal.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\obj\Debug\terminal.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\obj\Debug\terminal.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\terminal\obj\Debug\terminal.Form2.resources
