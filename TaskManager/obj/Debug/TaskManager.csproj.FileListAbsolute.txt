@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\bin\Debug\TaskManager.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\bin\Debug\TaskManager.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\bin\Debug\TaskManager.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\obj\Debug\TaskManager.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\obj\Debug\TaskManager.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\obj\Debug\TaskManager.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\obj\Debug\TaskManager.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\obj\Debug\TaskManager.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\obj\Debug\TaskManager.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\TaskManager\obj\Debug\TaskManager.pdb
