@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\bin\Debug\T9 Dz.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\bin\Debug\T9 Dz.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\bin\Debug\T9 Dz.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\obj\Debug\T9 Dz.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\obj\Debug\T9_Dz.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\obj\Debug\T9_Dz.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\obj\Debug\T9 Dz.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\obj\Debug\T9 Dz.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\obj\Debug\T9 Dz.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\T9 Dz\obj\Debug\T9 Dz.pdb
