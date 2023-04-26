@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfBook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Book>
+    <Name>CLR via C#</Name>
+    <Author>Jefry Richter</Author>
+  </Book>
+  <Book>
+    <Name>Эмоциональный интеллект</Name>
+    <Author>Дэниел Гоулман</Author>
+  </Book>
+  <Book>
+    <Name>С++</Name>
+    <Author>Бьярне Страуструп</Author>
+  </Book>
+  <Book>
+    <Name>ТРИЗ</Name>
+    <Author>Марк Меерович</Author>
+  </Book>
+</ArrayOfBook>
