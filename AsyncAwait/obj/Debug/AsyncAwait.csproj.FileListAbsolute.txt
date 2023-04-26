@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\bin\Debug\AsyncAwait.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\bin\Debug\AsyncAwait.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\bin\Debug\AsyncAwait.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\obj\Debug\AsyncAwait.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\obj\Debug\AsyncAwait.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\obj\Debug\AsyncAwait.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\obj\Debug\AsyncAwait.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\obj\Debug\AsyncAwait.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\obj\Debug\AsyncAwait.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\AsyncAwait\obj\Debug\AsyncAwait.pdb
