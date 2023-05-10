@@ -1,0 +1,10 @@
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\bin\Debug\Paint Project.exe.config
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\bin\Debug\Paint Project.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\bin\Debug\Paint Project.pdb
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\obj\Debug\Paint Project.csproj.AssemblyReference.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\obj\Debug\Paint_Project.Form1.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\obj\Debug\Paint_Project.Properties.Resources.resources
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\obj\Debug\Paint Project.csproj.GenerateResource.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\obj\Debug\Paint Project.csproj.CoreCompileInputs.cache
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\obj\Debug\Paint Project.exe
+C:\Users\solt2\OneDrive\Робочий стіл\step\Курс 2\WinForms\Paint Project\obj\Debug\Paint Project.pdb
