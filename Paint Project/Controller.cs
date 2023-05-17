@@ -10,85 +10,125 @@ using System.Windows.Forms;
 
 namespace Paint_Project
 {
+
+    // Контролер  в MVC
     class Controller
     {
+       
+        public TextSettings textSettings=new TextSettings();
 
-
+        //Кисть
         public ArrayPoints arrayPoints = new ArrayPoints(2);
-        public Line line = new Line(2);
+
+        //Фигуры и виртуальные фигуры
+        public Figures figures;
+        public Figures VirtualFigures=new VirtualLine(2);
 
 
 
         public Bitmap map = new Bitmap(100, 100);
-        public Bitmap buff_map;
+
+
+
 
 
         public Graphics graphics;
 
         public Pencils pencils;
+
+        //в разработке
+        public Caretaker history = new Caretaker();
+
+
+        // Сохранить изображение
+        public void Save()
+        {
+            Bitmap buff = map.Clone() as Bitmap;
+            history.Save(new Memento(buff));
+            history.SaveFile();
+            MessageBox.Show("Save");
+        }
+
+
+        //В разработке
+        public void RestoreState(Memento memento)
+        {
+
+            history.SaveFile();
+
+            map = memento.bitmap;
+
+            graphics = Graphics.FromImage(memento.bitmap);
+
+            graphics.DrawImage(map, 0, 0);
+
+          
+
+
+        }
+   
+
+     
        
 
 
-
+        
         public int Type { get; set; } = 1;
 
-        
+     
 
         public Controller()
         {
             pencils = new Pencils();
-        }
-        public Bitmap ZoomOut()
-        {
-            /*    Bitmap zoomMap = new Bitmap(map, Convert.ToInt32(map.Width / 1.2), Convert.ToInt32(map.Height / 1.2));
-                map = zoomMap;*/
+
             
-            graphics.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
-            graphics.DrawImage(map, 0, 0, Convert.ToInt32(map.Width / 1.2), Convert.ToInt32(map.Height / 1.2));
+
+
+        }
+
+       //Отдалить
+        public Bitmap ZoomOut(PictureBox pic)
+        {
+           
             return map;
         }
+        // Приблизить
         public Bitmap ZoomIn()
         {
-          /*  Bitmap zoomMap = new Bitmap(map, Convert.ToInt32(map.Width * 1.2), Convert.ToInt32(map.Height * 1.2));
-            map = zoomMap;*/
-            
-            graphics.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.NearestNeighbor;
-            graphics.DrawImage(map, 0, 0, Convert.ToInt32(map.Width * 1.2), Convert.ToInt32(map.Height * 1.2));
+          
             return map;
         }
+
+        //Установить начальные координаты 
         public void SetStart(int x, int y)
         {
             if (Type == 1)
             {
                 arrayPoints.SetPoint(x, y);
             }
-            else if (Type == 2)
+            else
             {
-                line.SetStartPoint(x, y);
-            }
-            else if (Type == 3)
-            {
-                line.SetStartPoint(x, y);
+                figures.SetStartPoint(x, y);
             }
         }
+
+        //Обнулить
         public void Reset()
         {
             if (Type == 1)
             {
                 arrayPoints.ResetPoints();
             }
-            else if (Type == 2)
+            else
             {
-                line.ResetPoints();
-            }
-            else if (Type == 3)
-            {
-                line.ResetPoints();
+                figures.ResetPoints();
             }
         }
-        public void SetSize(Panel panel)
+
+        //Устанавливает размер холста по картинке 
+        public void SetSize(PictureBox picture)
         {
-            Rectangle rectangle = panel.ClientRectangle;
+            Rectangle rectangle =picture.ClientRectangle;
             map = new Bitmap(rectangle.Width, rectangle.Height);
             
             graphics = Graphics.FromImage(map);
@@ -97,6 +137,20 @@ namespace Paint_Project
             graphics.FillRectangle(Brushes.White, rectangle);
             
         }
+
+        //Устанавлвает точки виртуальных фигур
+        public void SetVirtualLine(int X,int Y)
+        {
+            VirtualFigures.SetPoint(X, Y);
+        }
+        public void SetStartVirtualLine(int X, int Y)
+        {
+            VirtualFigures.SetStartPoint(X, Y);
+        }
+
+
+
+        // Отвечает за отрисовку и передачу координат
         public Bitmap Draw(int X, int Y)
         {
 
@@ -110,52 +164,27 @@ namespace Paint_Project
                 
              
             }
-            else if (Type == 2)
+            else
             {
-               
-                line.SetPoint(X, Y);
-                
+                figures.SetPoint(X, Y);
                 return map;
             }
-            else if (Type == 3)
-            {
-                
-                line.SetPoint(X, Y);
-              
-               return map;
-                
-            }
 
-            return null;
+           
         }
      
+
+        // Отвичает не посредственно за рисование на image
         public Bitmap DrawFigure(int X,int Y)
         {
-            if (Type == 3)
+       
+            figures.SetPoint(X, Y);
+            Parallel.Invoke(() =>
             {
-                line.SetPoint(X, Y);
-                Parallel.Invoke(() =>
-                {
-                    graphics.DrawLine(pencils.pen, line.GetStartPoints(), line.GetPoints());
-                   
-                //
+                    //graphics.DrawLine(pencils.pen, figures.GetStartPoints(), figures.GetPoints());
+                    figures.Draw(graphics, pencils);
             });
-                return map;
-            }
-            else if(Type == 2)
-            {
-                line.SetPoint(X, Y);
-                Parallel.Invoke(() =>
-                {
 
-          
-                    graphics.DrawRectangle(pencils.pen, line.GetReact());
-                    graphics.FillRectangle(pencils.Brush, line.GetReact());
-                    line.SetPoint(X, Y);
-
-                });
-                return map;
-            }
             return map;
         }
         public void SetSize(float size)
@@ -176,12 +205,28 @@ namespace Paint_Project
         }
 
 
-     public void Save(string f)
+        //Изменяет Размер картинки
+        public Bitmap ResizeMap(int W,int H)
+        {
+            Bitmap resizeMap=new Bitmap(map);
+            map= new Bitmap(map,W,H);
+            graphics = Graphics.FromImage(map);
+            graphics.Clear(Color.White);
+            graphics.DrawImageUnscaled(resizeMap,0,0);
+           
+            return map;
+          
+          
+        }
+
+        //Сохраняет картинку 
+        public void Save(string f)
         {
             
             map.Save(f);
         }
 
+        //Загружает картинку 
         public void Load(string filename)
         {
             map = new Bitmap(filename);
@@ -190,7 +235,7 @@ namespace Paint_Project
         }
     }
 
-
+  
 
 
 }

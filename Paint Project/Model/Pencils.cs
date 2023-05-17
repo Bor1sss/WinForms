@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Drawing;
 namespace Paint_Project
 {
+    //Кисть отвечает за цвета заливку размер
     class Pencils
     {
 
@@ -17,7 +18,7 @@ namespace Paint_Project
 
         Color inColor= Color.Red;
 
-        float Size = 1f;
+       public float Size { get; set; } = 1.0f;
         public Pen pen { get; set; }
         
         public Brush Brush { get; set; }
@@ -59,7 +60,7 @@ namespace Paint_Project
         public void SetColor(Color color)
         {
             this.color= color;
-           pen.Color= color;
+            pen.Color= color;
         }
         public void SetInColor(Color color)
         {
